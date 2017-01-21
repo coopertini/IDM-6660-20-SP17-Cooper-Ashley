@@ -1,1 +1,41 @@
 /* YOUR CSS GOES HERE */
+
+/* GLOBAL */
+
+html {
+	width: 640px;
+	margin: auto;
+}
+
+h1, h2, h3 {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2.6em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.35em;
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+img {
+	width: 100%;
+}
+
+.video  {
+	width: 640px;
+	height: 380px;
+}
+}
