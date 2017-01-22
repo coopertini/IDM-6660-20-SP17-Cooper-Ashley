@@ -6,6 +6,7 @@ html {
 	box-sizing: border-box;
 	width: 640px;
 	margin: auto;
+	color: #111;
 }
 
 *, *:before, *:after { 
@@ -28,23 +29,36 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	padding: 20px 0;
 }
 
 h3 {
 	font-size: 1.3em;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
-p, li {
+p, li, blockquote {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 1.04em;
 }
 
-p {
+p, blockquote {
 	line-height: 1.6em;
-	padding: 15px 0;
+}
+
+p {
+	padding: 20px 0;
+}
+
+a {
+	color: #0074d9;
+}
+
+blockquote {
+	background-color: #ddd;
+	padding: 8px 10px 15px 10px;
+	margin-bottom: 15px;
 }
 
 ul, li {
@@ -57,12 +71,12 @@ li {
 
 img {
 	width: 100%;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 .video  {
 	width: 640px;
-	height: 380px;
+	height: 400px;
 	padding: 10px 0 20px 0;
 }
 
