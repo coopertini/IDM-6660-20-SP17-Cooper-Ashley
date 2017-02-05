@@ -1,5 +1,9 @@
+/* GLOBAL */
+
 html {
 	box-sizing: border-box;
+	width: 400px;
+	margin: 0 auto;
 }
 
 *, *:before, *:after { 
@@ -9,4 +13,95 @@ html {
 * {
 	margin: 0;
 	padding: 0;
+}
+
+/* NAVIGATION */
+
+nav {
+	position: relative;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b8331b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+	background-color: #b86d1b;
+}
+
+ul.topnav li.icon {
+	display: none;
+}
+
+ul.topnav li {
+	display: none;
+}
+
+ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+ul.topnav.responsive {
+	position: relative;
+}
+
+ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.topnav.responsive li {
+    float: none;
+    display: inline;
+}
+
+ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+}
+
+.sub-nav {
+	display: none;
+	margin-left: 50px;
+}
+
+.sub-nav:hover {
+    display: block;
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* Publications */
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
