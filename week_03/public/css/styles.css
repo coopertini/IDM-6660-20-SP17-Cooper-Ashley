@@ -105,3 +105,76 @@ h1 {
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+main {
+	padding: 10px;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+h2, .read-more{
+	color: #b8331b;
+	font-weight: 600;
+	font-size: 1.8em;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+
+.main-pub {
+	max-width: 100%;
+}
+
+.preview {
+	line-height: 1.5em;
+}
+
+.read-more {
+	font-size: .9em;
+}
+
+.main-pub, .read-more {
+	padding: 20px 0;
+}
+
+a:link {
+	color: #b8331b;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #b86d1b;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b86d1b;
+    text-decoration: none;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+.review, .reviewer, h3 {
+	font-size: .8em;
+}
+
+.review {
+	font-style: italic;
+	font-size: .8em;
+	line-height: 4px;
+}
+
+.reviewer {
+	font-weight: 600;
+	text-align: right;
+	padding-bottom: 25px;
+}
+
+.footer {
+	font-size: .7em;
+	text-align: center;
+}
+
