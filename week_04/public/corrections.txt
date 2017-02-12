@@ -1,0 +1,11 @@
+DONE
+1.	Added viewport code to keep the view consistent on a mobile device
+2.	Code cleanup and alignment adjustments to correct any mistakes from week three and for the overall width adjustments from 400px to 300 px
+3.	Added the author’s name to the menu drop-down to add consistency for the navigation
+4.	Change width to 300px to fit better on a mobile viewing device
+5.	Place width setting in the body not html
+6.	Added an introduction to the author including a headshot and a quote to give viewers a better introduction to the site's content
+7.	Adjusted the JavaScript to remove the dots and edited the side buttons to fall below the content. The buttons were also increased in size for easier touch-points.
+
+DIDN’T DO:
+•	Did not shorten the copy down because these paragraphs already seemed shortened enough.
