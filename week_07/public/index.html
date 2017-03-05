@@ -8,8 +8,74 @@
 		<title>Tipsy Sauce Company Home</title>
 
 		<link type="text/css" rel="stylesheet" href="css/tipsy-styles.css" media="screen">
+
+		<link href="https://fonts.googleapis.com/css?family=Assistant:700" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
 
 	<body>
+		<header>
+			<h1 id="logo"><span>Tipsy Sauce Company</span></h1>
+		</header>
+
+		<nav id="top-nav">
+			<ul>
+				<li><a href="#"><i id="menu-icon" class="fa fa-bars" aria-hidden="true"></i></a>
+				<ul id="nav-items">
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>Products</li></a>
+					<a href="#"><li>Shop</li></a>
+					<a href="#"><li>Recipes</li></a>
+					<a href="#"><li>Contact</li></a>
+				</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<section id="header-image" class="bottom-shadow-top">
+			<img id="tipsy-bottles" src="images/brick-bkrd.jpg">
+		</section>
+
+		<section id="intro-text-block">
+			<img src="images/not-your-avg-condiment.png">
+		</section>
+
+		<section class="home-feature top-shadow-middle">
+			<h2 class="h2-left">Tipsy's<br/>Story</h2>
+			<img src="images/tipsy-story.jpg">
+		</section>
+
+		<section class="home-feature">
+			<h2 class="h2-right">Tipsy<br/>Recipes</h2>
+			<img src="images/tipsy-recipes.jpg">
+		</section>
+
+		<section class="home-feature bottom-shadow-bottom">
+			<h2 class="h2-left">Where<br/>to Buy</h2>
+			<img src="images/buy-tipsy.jpg">
+		</section>
+
+		<footer>
+			<div class="soc-icons">
+				<ul class="social">
+		            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+		        </ul>
+		    </div>
+
+	        <p id="copyright">&copy; 2017 Tipsy Sauce Company</p>
+		</footer>
+
+		<script>
+			$(".navigation").navigation({
+	maxWidth: "10000px"
+});
+</script>
+
 	</body>
 </html>
