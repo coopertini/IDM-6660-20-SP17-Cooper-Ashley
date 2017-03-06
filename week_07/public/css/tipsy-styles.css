@@ -59,8 +59,8 @@ h1#logo span {
 	font-size: 40px;
 }
 
-#menu-icon li:hover, li:visited {
-	color: #fff;
+li a:visited {
+	color: #fff !important;
 }
 
 ul.nav-items {
@@ -85,6 +85,7 @@ ul.nav-items {
 
 a:link {
 	text-decoration: none;
+	color: #fff;
 }
 
 ul.nav-items a:link  li {
@@ -97,9 +98,9 @@ ul.nav-items a:visited li {
 }
 
 ul.nav-items a:hover li {
-	color: #737474;
-	border-top: 4px solid #fff;
-	border-bottom: 4px solid #fff;
+	color: #fff;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 }
 
 a:visited#menu-icon {
