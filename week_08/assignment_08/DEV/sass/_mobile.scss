@@ -1,0 +1,256 @@
+/* GLOBAL */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after { 
+	box-sizing: inherit; 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+h1 {
+	position: relative;
+}
+
+h1#logo {
+	width: 100%;
+	height: 160px;
+	background-image: url("../images/tipsy-logo-transp.png");
+	background-size: 180px 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1#logo span {
+	display: none;
+}
+
+/* NAVIGATION */
+
+#nav-ribbon {
+	display: none;
+}
+
+#top-nav ul {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	list-style: none;
+}
+
+#menu-icon {
+	font-size: 40px;
+}
+
+li a:visited {
+	color: #fff !important;
+}
+
+ul.nav-items {
+	display: none;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 30px;
+    margin: -40px 0 0 -40px;
+    line-height: 2em;
+}
+
+#top-nav:hover .nav-items {
+	display: block;
+}
+
+a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul.nav-items a:link  li {
+	color: #fff;
+}
+
+ul.nav-items a:visited li {
+	display: inline-block;
+	color: #fff;
+}
+
+ul.nav-items a:hover li {
+	color: #fff;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+
+a:visited#menu-icon {
+	color: #fff;
+}
+
+.nav-items a:active ul li {
+	display: inline-block;
+	color: #fff;
+	background-color: hsla(190, 30%, 94%, 1)
+}
+
+/* TOP BANNER - MOBILE */
+
+#header-image img {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+#intro-text-block img {
+	max-height: 300px;
+	width: 100%;
+	object-fit: contain;
+	padding: 20px;
+}
+
+.home-feature img {
+	height: 170px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.home-feature {
+	position: relative;
+}
+
+h2 {
+	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.2em;
+	color: #fff;
+	line-height: .9em;
+	z-index: 1;
+}
+
+h2.h2-left {
+	position: absolute;
+	left: 30px;
+	top: 50px;
+}
+
+h2.h2-right {
+	position: absolute;
+	right: 30px;
+	top: 50px;
+	text-align: right;
+}
+
+/* SHADOWS */
+
+.features {
+	position: relative;
+}
+
+.bottom-shadow-top:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 299px;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 20px 10px #555;
+       -moz-box-shadow: 0px 0px 20px 10px #555;
+            box-shadow: 0px 0px 20px 10px #555;
+}
+
+.top-shadow-middle:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 20px 10px #555;
+       -moz-box-shadow: 0px 0px 20px 10px #555;
+            box-shadow: 0px 0px 20px 10px #555;
+}
+
+.bottom-shadow-bottom:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 20px 10px #555;
+       -moz-box-shadow: 0px 0px 20px 10px #555;
+            box-shadow: 0px 0px 20px 10px #555;
+}
+
+/*  FOOTER  */ 
+
+.soc-icons {
+	text-align: center;
+}
+
+.soc-icons ul{
+    display: inline-table;
+}
+
+.soc-icons li {
+    list-style-type: none;
+    float: left;
+    display: inline;
+}
+
+.soc-icons ul li a:link i {
+    background: #721029;
+    color: #fff;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 10px 0 10px;
+    padding-top: 10%;
+}
+
+.soc-icons ul li a:visited i {
+    color: #fff;
+}
+
+ .soc-icons ul li a:hover i {
+    background: #000;
+}
+
+p#copyright {
+	clear: both;
+	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	color: #721029;
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+}

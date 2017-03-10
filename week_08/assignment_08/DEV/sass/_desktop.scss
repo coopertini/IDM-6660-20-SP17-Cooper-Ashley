@@ -1,0 +1,48 @@
+/* DESKTOP VIEW */
+
+@media (min-width: 1020px) {
+
+	html {
+		height: 859px;
+	}
+
+	body {
+		height: 769px;
+	}
+
+	#intro-text-block img {
+		display: none;
+	}
+
+	#intro-text-block {
+		display:block;
+		background-image: url("../images/not-your-avg-condiment-hz.png") !important;
+		background-size: contain;
+		background-repeat: no-repeat !important;
+    	background-position: top center !important;
+    	width: 55%;
+    	height: 180px !important;
+		z-index: 1;
+		position: absolute;
+		top: 90px;
+		left: 330px;
+	}
+
+	#header-image img {
+		top: 220px;
+		height: 450px;
+	}
+
+	.home-feature {
+		top: 210px;
+	}
+
+	.bottom-shadow-bottom:after {
+		bottom: -345px;
+	}
+
+	#footer {
+		top: 200px;
+	}
+
+}
