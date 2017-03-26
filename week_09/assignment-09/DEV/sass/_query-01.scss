@@ -9,7 +9,7 @@ body {
 
 header {
 	background-image: url("../images/black-texture.png");
-	background-size: contain;
+	background-size: cover;
 	width: 100%;
 }
 
@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 3.8em;
 	padding: 30px 0 10px 10px;
 	line-height: 1em;
 }

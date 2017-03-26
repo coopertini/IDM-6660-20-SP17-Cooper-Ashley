@@ -1,0 +1,19 @@
+@media (min-width: 550px) {
+	h1, h2, p {
+		width: $query-03-content-width;
+	}
+
+	h1 {
+		font-size: 5.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1.3em;
+		line-height: 2rem;
+	}
+
+}

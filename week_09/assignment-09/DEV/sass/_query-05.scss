@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+	body {
+		width: $query-05-content-width;
+	}
+
+	h1, h2, p {
+		width: $query-05-content-width;
+	}
+
+	h1 {
+		padding: 30px 0px 10px 50px;
+		font-size: 7.2em;
+	}
+
+	h2 {
+		padding: 0px 0px 30px 50px;
+	}
+
+	p {
+		padding: 10px 50px;
+	}
+}
