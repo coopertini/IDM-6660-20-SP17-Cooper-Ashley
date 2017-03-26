@@ -1,0 +1,10 @@
+@media (min-width: 400px) {
+
+	h1, h2, p {
+		width: $query-02-content-width;
+	}
+
+	p {
+		font-size: 1.1em;
+	}
+}
