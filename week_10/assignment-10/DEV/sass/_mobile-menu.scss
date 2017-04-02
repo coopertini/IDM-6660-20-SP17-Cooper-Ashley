@@ -1,0 +1,57 @@
+@media (min-width: 0px) and (max-width: 659px) {
+	.menu-controller {
+		display: none;
+		visibility: hidden;
+	}
+
+	.border-menu {
+  		position: relative;
+  		padding-left: 1.5em;
+	}
+
+	.border-menu:before {
+  		content: "";
+  		position: absolute;
+  		top: 0.25em;
+  		left: 0;
+  		width: 1em;
+  		height: 0.125em;
+  		border-top: 0.375em double #cc0066;
+  		border-bottom: 0.125em solid #cc0066;
+	}
+
+	label {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 800;
+		color: #cc0066;
+		font-size: 20px;
+	}
+
+	label:hover {
+		cursor: pointer;
+	}
+
+	ul {
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 1s ease;
+	}
+
+	.menu-controller:checked ~ ul {
+		max-height: 1000px;
+	}
+
+	nav {
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	nav li a:hover {
+		display: block;
+		padding: 5px 0;
+		width: 40%;
+		margin: 0 auto;
+		transition: .2s ease;
+	}
+
+}

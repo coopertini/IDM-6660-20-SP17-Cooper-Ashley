@@ -1,0 +1,17 @@
+@media (min-width: 650px) {
+	.menu-controller, label {
+		display: none;
+	}
+
+	nav {
+		text-align: center;
+		border: 1px solid #003366;
+		margin-bottom: 20px;
+	}
+
+	li {
+		display: inline-block;
+		padding: 10px 18px;
+	}
+	
+}

@@ -1,7 +1,51 @@
+html {
+	background-color: #ffffcc;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 600px;
+	padding: 0 20px;
+}
+
 h1 {
 	font-family: 'Libre Baskerville', serif;
+	font-size: 3em;
+	text-align: center;
+	padding: 20px 0;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
+	padding: 10px 0;
+	line-height: 1.5rem;
+	font-size: 1.1em;
+}
+
+h1, p {
+	color: #003366;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 400;
+	padding: 8px 0;
+}
+
+a:link {
+		text-decoration: none;
+		color: #cc0066;
+	}
+
+a:visited {
+	color: #660066;
+}
+
+a:hover {
+	border-bottom: 2px solid #660066;
+	color: #660066;
+	font-weight: 800;
 }
