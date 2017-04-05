@@ -1,0 +1,28 @@
+$blue: #386598;
+$yellow: #E9C54A;
+$orange: #E9814A;
+$red: #E9564A;
+
+$header-font: "Helvetica", sans-serif;
+
+$phablet-width: "screen and (min-width: 480px)";
+$tablet-width: "screen and (min-width: 640px)";
+$desktop-width: "screen and (min-width: 960px)";
+
+@mixin phablet {
+  @media #{$phablet-width} {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media #{$tablet-width} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$desktop-width} {
+    @content;
+  }
+}

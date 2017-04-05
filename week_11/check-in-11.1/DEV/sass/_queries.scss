@@ -1,0 +1,34 @@
+body * {
+  width: 320px;
+  margin: 10px auto;
+
+  @include phablet {
+    width: 460px;
+  }
+
+  @include tablet {
+    width: 620px;
+  }
+
+  @include desktop {
+    width: 940px;
+  }
+}
+
+h1 {
+  font-family: $header-font;
+  text-align: center;
+  font-size: 1.5em;
+
+  @include phablet {
+    font-size: 2em;
+  }
+
+  @include tablet {
+    font-size: 5em;
+  }
+
+  @include desktop {
+    font-size: 7em;
+  }
+}
