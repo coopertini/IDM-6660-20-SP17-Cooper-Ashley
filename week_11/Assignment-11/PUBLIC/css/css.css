@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 320px; }
+@media screen and (min-width: 480px) {
+  body {
+    width: 480px; } }
+@media screen and (min-width: 640px) {
+  body {
+    width: 640px; } }
+@media screen and (min-width: 960px) {
+  body {
+    width: 960px; } }
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background-color: #36435a;
+  width: 100%; }
+
+.main-nav {
+  position: relative; }
+
+h1#logo {
+  background-image: url("../../PUBLIC/images/cooper-logo.png");
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0.625em;
+  width: 200px;
+  height: 45px;
+  clear: both;
+  margin-top: 10px; }
+
+h1#logo span {
+  display: none; }
+
+label.menu-icon {
+  background-image: url("../../PUBLIC/images/menu-icon.png");
+  background-repeat: no-repeat;
+  float: right;
+  width: 35px;
+  height: 35px;
+  margin: 10px 20px; }
+@media screen and (min-width: 640px) {
+  label.menu-icon {
+    display: none; } }
+
+label span {
+  display: none; }
+
+.menu-controller {
+  display: none;
+  visibility: hidden; }
+
+.menu-controller:checked ~ ul {
+  max-height: 1000px; }
+
+nav ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+  background-color: #36435a;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  display: block;
+  width: 100%; }
+@media screen and (min-width: 640px) {
+  nav ul {
+    max-height: 60px;
+    background-color: transparent;
+    top: 0;
+    transition: none;
+    width: auto; } }
+
+nav li {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em; }
+@media screen and (min-width: 640px) {
+  nav li {
+    display: inline-block; } }
+
+a {
+  display: block;
+  height: 100%;
+  width: 100%; }
+@media screen and (min-width: 640px) {
+  a {
+    display: inline-block;
+    width: auto; } }
+
+a.nav-link {
+  color: #eb725d;
+  text-decoration: none; }
+
+a:visited {
+  color: #eb725d; }
+
+a:hover {
+  color: #3999d4;
+  font-weight: 700; }
+
+body {
+  width: 320px;
+  background-color: #23aba4;
+  margin-top: 60px; }
+
+.btm-right-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  width: 100vw;
+  z-index: -10; }
+@media screen and (min-width: 480px) {
+  .btm-right-img {
+    bottom: -40px; } }
+@media screen and (min-width: 640px) {
+  .btm-right-img {
+    bottom: -100px;
+    width: 80vw; } }
+@media screen and (min-width: 960px) {
+  .btm-right-img {
+    bottom: -150px;
+    width: 60vw; } }
+
+.bgd-img {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  opacity: 0.5;
+  width: 220vw;
+  z-index: -10; }
+@media screen and (min-width: 480px) {
+  .bgd-img {
+    width: 200vw; } }
+@media screen and (min-width: 640px) {
+  .bgd-img {
+    width: 140vw;
+    left: -60px; } }
+@media screen and (min-width: 960px) {
+  .bgd-img {
+    width: 110vw;
+    left: 0;
+    bottom: -180px; } }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #36435a;
+  height: 45px; }
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  weight: 700; }
+
+h2 {
+  font-size: 3.2em;
+  line-height: 1em;
+  padding: 60px 0px 0px 30px;
+  color: #eae2d4;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #eb725d; }
+@media screen and (min-width: 480px) {
+  h2 {
+    font-size: 4em;
+    width: 480px; } }
+@media screen and (min-width: 640px) {
+  h2 {
+    font-size: 5em;
+    width: 640px; } }
+@media screen and (min-width: 960px) {
+  h2 {
+    font-size: 6em;
+    width: 960px; } }
+
+h3 {
+  color: #eae2d4;
+  font-size: 2em;
+  padding: 30px 0 0 30px;
+  line-height: 1.3em; }
+@media screen and (min-width: 480px) {
+  h3 {
+    font-size: 2.1em;
+    width: 500px; } }
+@media screen and (min-width: 640px) {
+  h3 {
+    font-size: 2.5em; } }
+@media screen and (min-width: 960px) {
+  h3 {
+    font-size: 3em; } }
+
+h4 {
+  padding: 10px 30px;
+  color: #36435a;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  width: 320px; }
+@media screen and (min-width: 480px) {
+  h4 {
+    width: 420px;
+    font-size: 1.5em; } }
+@media screen and (min-width: 640px) {
+  h4 {
+    font-size: 1.2em;
+    width: 510px;
+    font-size: 1.8em; } }
+@media screen and (min-width: 960px) {
+  h4 {
+    font-size: 1.8em;
+    width: 710px; } }
+
+p {
+  font-family: "Poppins", sans-serif;
+  weight: 400;
+  color: #eae2d4;
+  line-height: 1.9em;
+  font-size: 1em;
+  padding: 10px 0px 10px 30px; }
+@media screen and (min-width: 480px) {
+  p {
+    width: 420px; } }
+@media screen and (min-width: 640px) {
+  p {
+    font-size: 1.2em;
+    width: 510px; } }
+@media screen and (min-width: 960px) {
+  p {
+    font-size: 1.5em;
+    width: 710px; } }
+
+.footer p {
+  font-size: 14px;
+  color: #eae2d4;
+  padding: 12px 0px 0px 10px; }
+
+p.blue-bkg {
+  background-color: rgba(57, 153, 212, 0.7);
+  margin-left: 20px;
+  padding: 15px; }
+
+.bold-accent {
+  color: #eb725d;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #eae2d4; }
+
+#achievements {
+  padding-bottom: 80px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  z-index: -10; }
+@media screen and (min-width: 480px) {
+  .container {
+    margin: auto 30px; } }
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0; }
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%; }
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px; }
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA; }
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none; }
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px; }
+
+#contact button[type="submit"]:hover {
+  background: #09C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; }
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999; }
+
+::-webkit-input-placeholder {
+  color: #888; }
+
+:-moz-placeholder {
+  color: #888; }
+
+::-moz-placeholder {
+  color: #888; }
+
+:-ms-input-placeholder {
+  color: #888; }
+
+/*# sourceMappingURL=css.css.map */

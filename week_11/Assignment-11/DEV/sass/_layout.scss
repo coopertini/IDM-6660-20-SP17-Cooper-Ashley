@@ -1,0 +1,62 @@
+// BACKGROUND STYLES
+body {
+	width: 320px;
+	background-color: $aqua;
+	margin-top: 60px;
+}
+
+.btm-right-img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
+	width: 100vw;
+	z-index: -10;
+
+	@include phablet {
+		bottom: -40px;
+	}
+
+	@include tablet {
+		bottom: -100px;
+		width: 80vw;
+	}
+
+	@include desktop {
+		bottom: -150px;
+		width: 60vw;
+	}
+}
+
+.bgd-img {
+	position: absolute;
+	bottom: 0;
+	left: -200px;
+	opacity: 0.5;
+	width: 220vw;
+	z-index: -10;
+
+	@include phablet {
+		width: 200vw;
+	}
+
+	@include tablet {
+		width: 140vw;
+		left: -60px;
+	}
+
+	@include desktop {
+		width: 110vw;
+		left: 0;
+		bottom: -180px;
+	}
+}
+
+// FOOTER STYLES
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: $dark-blue;
+	height: 45px;
+}

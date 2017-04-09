@@ -1,0 +1,15 @@
+body {
+  width: 320px;
+
+  @include phablet {
+    width: 480px;
+  }
+
+  @include tablet {
+    width: 640px;
+  }
+
+  @include desktop {
+    width: 960px;
+  }
+}

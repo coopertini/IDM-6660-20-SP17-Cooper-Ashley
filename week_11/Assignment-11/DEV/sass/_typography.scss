@@ -1,0 +1,121 @@
+// Typogography Styles
+
+h1, h2, h3, h4 {
+  font-family: $header-font;
+  weight: 700;
+}
+
+h2 {
+  font-size: 3.2em;
+  line-height: 1em;
+  padding: 60px 0px 0px 30px;
+  color: $cream;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: $salmon;
+
+  @include phablet {
+    font-size: 4em;
+    width: 480px;
+  }
+
+  @include tablet {
+    font-size: 5em;
+    width: 640px;
+  }
+
+  @include desktop {
+    font-size: 6em;
+    width: 960px;
+  }
+}
+
+h3 {
+  color: $cream;
+  font-size: 2em;
+  padding: 30px 0 0 30px;
+  line-height: 1.3em;
+
+  @include phablet {
+    font-size: 2.1em;
+    width: 500px;
+  }
+
+  @include tablet {
+    font-size: 2.5em;
+  }
+
+  @include desktop {
+    font-size: 3em;
+  }
+}
+
+h4 {
+  padding: 10px 30px;
+  color: $dark-blue;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  width: 320px;
+
+  @include phablet {
+    width: 420px;
+    font-size: 1.5em;
+  }
+
+  @include tablet {
+    font-size: 1.2em;
+    width: 510px;
+    font-size: 1.8em;
+  }
+
+  @include desktop {
+    font-size: 1.8em;
+    width: 710px;
+  }
+}
+
+p {
+  font-family: $copy-font;
+  weight: 400;
+  color: $cream;
+  line-height: 1.9em;
+  font-size: 1em;
+  padding:  10px 0px 10px 30px;
+
+  @include phablet {
+    width: 420px;
+  }
+
+  @include tablet {
+    font-size: 1.2em;
+    width: 510px
+  }
+
+  @include desktop {
+    font-size: 1.5em;
+    width: 710px;
+  }
+
+}
+
+.footer p {
+  font-size: 14px;
+  color: $cream;
+  padding: 12px 0px 0px 10px;
+}
+
+p.blue-bkg {
+  background-color: rgba($bright-blue, .7);
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.bold-accent {
+  color: $salmon;
+  -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: $cream;
+}
+
+#achievements {
+  padding-bottom: 80px;
+}
