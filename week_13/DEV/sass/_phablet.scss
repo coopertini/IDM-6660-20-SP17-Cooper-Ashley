@@ -1,0 +1,48 @@
+@media (min-width: $phablet-content-width) {
+
+  // header //
+  #logo {
+    left: 40%;
+  }
+
+  // Typography //
+  h1 {
+    font-size: 5.5em;
+    line-height: 5rem;
+    padding-left: 30px;
+  }
+
+  h2 {
+    font-size: 3em;
+    padding-left: 30px;
+    line-height: 3.2rem;
+  }
+
+  h3 {
+    padding-left: 30px;
+  }
+
+  p {
+    max-width: 750px;
+    padding-left: 30px;
+  }
+
+  // Background Image //
+  .btm-right-img {
+    width: 400px;
+  }
+
+  .work h2 {
+    padding: 20px 0 20px 20px;
+  }
+
+  // Projects //
+
+  .work {
+    margin-left: 20px;
+  }
+
+  .project-images {
+    margin-left: 30px;
+  }
+}

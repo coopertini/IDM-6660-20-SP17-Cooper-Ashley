@@ -1,0 +1,63 @@
+@media (min-width: $tablet-content-width) {
+
+  // Header //
+  #logo {
+    left: 50px;
+    max-width: 170px;
+  }
+
+  // Navigation //
+  .nav-bar li {
+    float: left;
+  }
+  .nav-bar li a {
+    padding: 20px 30px;
+  }
+  .nav-bar .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .nav-bar .menu-icon {
+    display: none;
+  }
+
+  // Background Image //
+  .btm-right-img {
+    width: 500px;
+    bottom: -90px;
+  }
+
+  .about-pg {
+    width: $tablet-content-width;
+    background-position: 30% 20%;
+  }
+
+  // Typography //
+  h1 {
+    padding: 250px 0 0 50px;
+  }
+
+  h2 {
+    padding: 20px 0 0 50px;
+    width: 400px;
+  }
+
+  h3 {
+    padding-left: 50px;
+  }
+
+  p {
+    padding-left: 50px;
+  }
+
+  // Projects //
+
+  .work {
+    margin-left: 35px;
+  }
+
+  .project-images {
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,52 @@
+@media (min-width: $desktop-content-width) {
+  body {
+    width: $desktop-content-width;
+  }
+
+  // Header //
+  #logo {
+    left: 100px;
+  }
+
+  // Typography //
+  h1 {
+    padding: 225px 0 0 100px;
+    line-height: 6.5rem;
+    font-size: 7em;
+  }
+
+  h2 {
+    padding: 20px 0 0 100px;
+    width: 600px;
+    font-size: 3.1em;
+  }
+
+  h3 {
+    padding-left: 100px;
+  }
+
+  p {
+    padding-left: 100px;
+  }
+
+  // Background Image //
+  .btm-right-img {
+    width: 55vw;
+    bottom: -140px;
+  }
+
+  .about-pg {
+    width: 100%;
+    background-position: left 40%;
+  }
+
+  // Projects //
+
+  .work {
+    margin-left: 85px;
+  }
+
+  .project-images {
+    margin-left: 100px;
+  }
+}
